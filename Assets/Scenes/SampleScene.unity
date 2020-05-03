@@ -381,6 +381,7 @@ GameObject:
   - component: {fileID: 101540448}
   - component: {fileID: 101540447}
   - component: {fileID: 101540446}
+  - component: {fileID: 101540450}
   m_Layer: 0
   m_Name: Camera1
   m_TagString: MainCamera
@@ -477,13 +478,32 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101540445}
-  m_LocalRotation: {x: 0.0034550338, y: 0.9819009, z: -0.18844482, w: 0.018637748}
-  m_LocalPosition: {x: -46.87381, y: 23.032808, z: 73.46553}
+  m_LocalRotation: {x: 0, y: 0.98207736, z: -0.18847841, w: 0}
+  m_LocalPosition: {x: -20.9, y: 42.3, z: 121.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 15.265, y: 288.5, z: 0.001}
+  m_LocalEulerAnglesHint: {x: 21.728, y: 180, z: 0}
+--- !u!95 &101540450
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101540445}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 867813850d919954da7b120b552e7a8f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &487809619
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,7 +609,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7fc8407991129f84ea6a7bd0db66d6b4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bc7cf5b26c655c244b337dd77b09d563, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -701,8 +721,9 @@ GameObject:
   - component: {fileID: 1687258584}
   - component: {fileID: 1687258582}
   - component: {fileID: 1687258586}
+  - component: {fileID: 1687258583}
   m_Layer: 0
-  m_Name: MainCamera
+  m_Name: Camera0
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -716,6 +737,25 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
   m_Enabled: 1
+--- !u!95 &1687258583
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687258581}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f90265733deec6a4987c4b8c9a25e9f0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!20 &1687258584
 Camera:
   m_ObjectHideFlags: 0
