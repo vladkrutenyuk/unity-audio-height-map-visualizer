@@ -165,15 +165,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d270aba429ca4994696b1c5515d31a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _useMicrophone: 1
   _audioSource: {fileID: 675365773}
   _lineRenderer: {fileID: 1198111}
-  _trailPrefab: {fileID: 7018405917196410888, guid: 33334da659499f74e96350745f83fe0a,
+  _musicTrailPrefab: {fileID: 7018405917196410888, guid: 33334da659499f74e96350745f83fe0a,
     type: 3}
-  samplesSizePower: 13
-  power: 55
-  scale: 800
-  length: 500
-  trailsDivider: 1
+  _micTrailPrefab: {fileID: 7018405917196410888, guid: 33334da659499f74e96350745f83fe0a,
+    type: 3}
+  _musicMixer: {fileID: 24300002, guid: 08678706871f3f94b817c87e09473fa9, type: 2}
+  _micMixer: {fileID: -1750856176935941543, guid: 08678706871f3f94b817c87e09473fa9,
+    type: 2}
+  _samplesSizePower: 13
+  _power: 55
+  _scale: 800
+  _length: 500
+  _trailsDivider: 1
 --- !u!120 &1198111
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -427,7 +433,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101540445}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &101540448
 Camera:
   m_ObjectHideFlags: 0
@@ -781,7 +787,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 51
+  field of view: 17
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
