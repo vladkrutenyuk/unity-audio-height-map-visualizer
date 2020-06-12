@@ -165,9 +165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d270aba429ca4994696b1c5515d31a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 675365773}
-  lineRenderer: {fileID: 1198111}
-  trailPrefab: {fileID: 7018405917196410888, guid: 33334da659499f74e96350745f83fe0a,
+  _audioSource: {fileID: 675365773}
+  _lineRenderer: {fileID: 1198111}
+  _trailPrefab: {fileID: 7018405917196410888, guid: 33334da659499f74e96350745f83fe0a,
     type: 3}
   samplesSizePower: 13
   power: 55
@@ -405,7 +405,6 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_CameraOutput: 0
   m_Cameras: []
   m_RendererIndex: -1
   m_VolumeLayerMask:
@@ -417,6 +416,7 @@ MonoBehaviour:
   m_AntialiasingQuality: 2
   m_StopNaN: 1
   m_Dithering: 0
+  m_ClearDepth: 1
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
@@ -609,7 +609,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bc7cf5b26c655c244b337dd77b09d563, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0539c3e00fa969a4db122a3c87ff1ae9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -781,7 +781,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 17
+  field of view: 51
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -806,8 +806,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: -0.14690985, y: 0.5650227, z: -0.1028516, w: -0.80534995}
-  m_LocalPosition: {x: 65.35, y: 34.61, z: -12.79}
+  m_LocalRotation: {x: 0.29164842, y: 0.066957355, z: -0.020623136, w: 0.9539563}
+  m_LocalPosition: {x: 38.537895, y: 37.297146, z: -55.74936}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -829,7 +829,6 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_CameraOutput: 0
   m_Cameras: []
   m_RendererIndex: -1
   m_VolumeLayerMask:
@@ -841,6 +840,7 @@ MonoBehaviour:
   m_AntialiasingQuality: 2
   m_StopNaN: 1
   m_Dithering: 0
+  m_ClearDepth: 1
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
