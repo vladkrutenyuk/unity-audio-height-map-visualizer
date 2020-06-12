@@ -11,7 +11,7 @@
 [Ll]ogs/
 
 # Huge Depthkit sources
-/Assets/Music/
+/Assets/Audio/Music
 
 # Never ignore Asset meta data
 ![Aa]ssets/**/*.meta
@@ -73,4 +73,6 @@ crashlytics-build.properties
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/unity,visualstudiocode
+
+### Rider ###
+.idea/
