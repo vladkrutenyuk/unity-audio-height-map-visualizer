@@ -182,7 +182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _lineRenderer: {fileID: 1531085666}
   _audioSource: {fileID: 1212683313}
-  _micAudioMixGroup: {fileID: 24300002, guid: 08678706871f3f94b817c87e09473fa9, type: 2}
+  _micAudioMixGroup: {fileID: -1750856176935941543, guid: 08678706871f3f94b817c87e09473fa9,
+    type: 2}
   _samplesSizePower: 12
   _power: 0.4
   _scale: 800
